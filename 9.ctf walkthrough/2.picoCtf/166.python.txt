@@ -1,0 +1,12 @@
+https://play.picoctf.org/practice/challenge/166
+
+we are given three files ( ende.py, pw.txt, flag.txt.en) if we run:
+
+$python3 ende.py
+
+It we suggest us the usage of the script
+Usage: ende.py(-e/-d) [file]
+
+-> python3 ende.py -d flag.txt.en
+the password inside pw.txt
+finnaly we get: picoCTF{4p0110_1n_7h3_h0us3_6008014f}

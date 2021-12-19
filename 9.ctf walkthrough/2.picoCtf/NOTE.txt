@@ -1,0 +1,11 @@
+Any hints about entering a command into the Terminal (such as the next one),
+will start with a '$'... everything after the dollar sign will be typed 
+(or copy and pasted) into your Terminal.
+
+Takes challenge 147 as example
+https://play.picoctf.org/practice/challenge/147
+
+To get the file accessible in your shell, enter the following in the Terminal prompt:
+$ wget https://mercury.picoctf.net/static/2d24d50b4ebed90c704575627f1f57b2/flag
+
+it will be saved as flag, then cat flag -> picoCTF{s4n1ty_v3r1f13d_f28ac910}
