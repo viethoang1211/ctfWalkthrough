@@ -1,0 +1,9 @@
+https://play.picoctf.org/practice/challenge/34
+
+https://linux.die.net/man/1/nc
+
+nc - arbitrary TCP and UDP connections and listens
+
+
+nc jupiter.challenges.picoctf.org 41120
+-> picoCTF{nEtCat_Mast3ry_3214be47}
