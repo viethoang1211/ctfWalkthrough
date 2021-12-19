@@ -1,0 +1,14 @@
+https://play.picoctf.org/practice/challenge/189?page=2
+
+Here you will have an option to Start a new Instance. 
+This will start a remote version of a Linux System. 
+You will use ssh to connect to it. 
+The format to use the command is ssh <username>@<host> -p <port> .
+Here, we are given the command we should use to connect to the instance.
+
+ssh ctf-player@venus.picoctf.net -p 54987
+
+cd / : move to the root
+cd ~ : move to Home directory
+
+easy to get flag, just combine data from 3 .txt file

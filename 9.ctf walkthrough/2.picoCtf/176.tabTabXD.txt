@@ -1,0 +1,9 @@
+https://play.picoctf.org/practice/challenge/176
+
+unzip Addadshashanammu.zip
+
+cd then tab tab tab :D
+and read the last file
+
+
+-> picoCTF{l3v3l_up!_t4k3_4_r35t!_f3553887}

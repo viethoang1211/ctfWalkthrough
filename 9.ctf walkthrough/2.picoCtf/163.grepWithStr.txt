@@ -1,0 +1,22 @@
+https://play.picoctf.org/practice/challenge/163
+
+chmod +x ltdis.sh
+chmod +x static
+
+./ltdis.sh -> know how to use
+
+./ltdis.sh static -> string in file
+
+cat "filename"
+
+But we have another better solution:
+we will use the strings command, often used with strings, grep is a useful
+tool to search for a string or a pattern of string in a huge blob of data
+
+To combine output of strings and grep, i.e using the output of strings 
+as input to our grep command,we use a bash utility called piping. 
+To pipe output, we use the ' | ' symbol.
+Since the flag format ( picoCTF{ ) is known to us we search for it.
+
+code: $ strings static | grep "picoCTF"
+->picoCTF{d15a5m_t34s3r_98d35619}
