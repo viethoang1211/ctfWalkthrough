@@ -4,6 +4,7 @@ https://linux.die.net/man/1/nc
 
 nc - arbitrary TCP and UDP connections and listens
 
+ctrl+D to close netcat
 
 nc jupiter.challenges.picoctf.org 41120
 -> picoCTF{nEtCat_Mast3ry_3214be47}

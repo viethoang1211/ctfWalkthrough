@@ -1,0 +1,16 @@
+https://play.picoctf.org/practice/challenge/49?category=5&page=2
+
+read the source code, we have this:
+ 		    
+int total_cost = 0;
+total_cost = 900*number_flags;
+printf("\nThe final cost is: %d\n", total_cost);
+if(total_cost <= account_balance){
+account_balance = account_balance - total_cost;
+printf("\nYour current balance after transaction: %d\n\n", account_balance);
+}
+
+so total_cost is 4-byte type, we will make it overflow and then account balance
+will increase :D
+I try with 10^8 then buy the 1337 flag 
+picoCTF{m0n3y_bag5_65d67a74}

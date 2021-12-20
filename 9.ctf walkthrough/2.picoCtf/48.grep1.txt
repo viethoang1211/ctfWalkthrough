@@ -1,0 +1,6 @@
+https://play.picoctf.org/practice/challenge/48?category=5&page=2
+
+nc jupiter.challenges.picoctf.org 4427 > output.txt
+strings output.txt | grep pico
+ 
+ez-> picoCTF{digital_plumb3r_5ea1fbd7}

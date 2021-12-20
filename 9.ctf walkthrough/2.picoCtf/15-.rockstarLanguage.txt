@@ -1,0 +1,26 @@
+https://play.picoctf.org/practice/challenge/15?category=5&page=2
+
+:v the given file is a program written in ROCKSTAR language
+Here's the link:
+https://esolangs.org/wiki/Rockstar
+
+we will run by online rockstar convert : https://codewithrockstar.com/online
+
+I got this output:
+114
+114
+114
+111
+99
+107
+110
+114
+110
+48
+49
+49
+51
+114
+
+ascii -> rrrocknrn0113r
+maybe i will update code to convert with python later
