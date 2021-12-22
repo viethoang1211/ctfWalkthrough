@@ -1,0 +1,12 @@
+https://play.picoctf.org/practice/challenge/44?category=4&page=1
+
+we can simply solve this by  strings garden.jpg|grep picoCTF
+
+and get picoCTF{more_than_m33ts_the_3y33dd2eEF5}
+
+
+but we will use another approach, remember that i'm just a newbie :p
+sudo apt install hexedit
+hexedit garden.jpg
+
+or xxd garden.jpg

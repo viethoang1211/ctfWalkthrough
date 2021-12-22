@@ -12,3 +12,5 @@ it will be saved as flag, then cat flag -> picoCTF{s4n1ty_v3r1f13d_f28ac910}
 
 
 rename file? Here's the link https://linuxize.com/post/how-to-rename-files-in-linux/
+
+clear all file? something like rm -r /home/viethoang1211-picoctf/*
