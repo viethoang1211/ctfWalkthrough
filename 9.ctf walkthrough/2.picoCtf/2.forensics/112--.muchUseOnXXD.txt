@@ -1,0 +1,14 @@
+https://play.picoctf.org/practice/challenge/112?category=4&page=1
+
+check the file type: file tunn3l_v1s10n
+-> data
+
+xxd command tutorial:
+https://www.howtoforge.com/linux-xxd-command/
+https://www.tutorialspoint.com/unix_commands/xxd.htm
+
+how does it start ?
+$ xxd -g 1 tunn3l_v1s10n | head
+
+22/12 maybe it's too hard for me now, tutorial link:
+https://github.com/Dvd848/CTFs/blob/master/2021_picoCTF/tunn3l_v1s10n.md

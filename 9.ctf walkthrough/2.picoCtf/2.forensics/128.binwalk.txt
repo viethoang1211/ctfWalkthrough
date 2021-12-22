@@ -1,0 +1,8 @@
+https://play.picoctf.org/practice/challenge/129?category=4&page=1
+
+here's information about binwalk :
+https://www.kali.org/tools/binwalk/
+
+do something like this binwalk -e 4_c.jpg
+
+picoCTF{96fac089316e094d41ea046900197662}

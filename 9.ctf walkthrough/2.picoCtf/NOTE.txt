@@ -9,3 +9,6 @@ To get the file accessible in your shell, enter the following in the Terminal pr
 $ wget https://mercury.picoctf.net/static/2d24d50b4ebed90c704575627f1f57b2/flag
 
 it will be saved as flag, then cat flag -> picoCTF{s4n1ty_v3r1f13d_f28ac910}
+
+
+rename file? Here's the link https://linuxize.com/post/how-to-rename-files-in-linux/
