@@ -1,0 +1,5 @@
+https://play.picoctf.org/practice/challenge/31?category=2&page=2
+
+search for flag signal :https://en.wikipedia.org/wiki/International_Code_of_Signals
+
+PICOCTF{F1AG5AND5TUFF}

@@ -1,0 +1,9 @@
+https://play.picoctf.org/practice/challenge/40?category=2&page=2
+
+Look like position in the world, I searched the coordinate on google
+for example, the first pair :(35.028309, 135.753082)
+the result is Nakanocho, Kamigyo Ward, Kyōto
+
+continue like this and pull the first letter of city to merge, we get
+
+picoCTF{KODIAK_ALASKA}

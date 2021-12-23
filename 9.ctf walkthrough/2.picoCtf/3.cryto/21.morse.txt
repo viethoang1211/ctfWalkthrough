@@ -1,0 +1,8 @@
+https://play.picoctf.org/practice/challenge/21?category=2&page=2
+
+absolutely familiar :D, i remembered when i was juvenile, 
+
+use this tool to take the flag easily
+https://morsedecoder.com/vi/
+
+PICOCTF{M0RS3C0D31SFUN1261438181}

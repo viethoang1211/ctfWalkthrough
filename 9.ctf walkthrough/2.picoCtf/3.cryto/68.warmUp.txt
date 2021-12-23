@@ -1,0 +1,21 @@
+https://play.picoctf.org/practice/challenge/68?category=2&page=1
+
+Take a look into the image, remember that the flag format is also 
+specified within the challenge: PICOCTF{}
+
+We see that there are exactly 7 letters before {, 
+so each number represents one letter ( ‘P’ -> 16, ‘I’ -> 9, ‘C’ -> 3, etc.)
+
+We think about the position in the alphabet
+
+I wrote a simple python to get the flag.
+x= [16,9,3,15,3,20,6,20,8,5,14,21,13,2,5,18,19,13,1,19,15,14]
+y=[chr(a+64) for a in x]
+print("".join(y))
+
+or 
+numbers = "16 9 3 15 3 20 6 20 8 5 14 21 13 2 5 18 19 13 1 19 15 14"
+flag = ''.join([chr(int(i) + ord('a') - 1) for i in numbers.split(" ")]).replace("picoctf", "picoCTF{") + "}"
+print(flag.upper())
+
+->PICOCTF{THENUMBERSMASON}
