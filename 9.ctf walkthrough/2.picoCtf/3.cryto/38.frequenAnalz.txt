@@ -1,0 +1,11 @@
+https://play.picoctf.org/practice/challenge/38?category=2&page=3
+
+waves over lambda is frequency :>
+
+Read this article:
+https://en.wikipedia.org/wiki/Frequency_analysis
+
+And this tool is such a nice one to solve substitute cipher
+https://www.quipqiup.com/
+-> flag:
+frequency_is_c_over_lambda_agflcgtyue
